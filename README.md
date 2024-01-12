@@ -5,5 +5,5 @@
 Creating the external network that all stacks will be using.
 
 ```
-docker network create traefik-gateway 
+docker network create traefik-gateway
 ```
