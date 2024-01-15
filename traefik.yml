@@ -25,7 +25,5 @@ certificatesResolvers:
   myresolver:
     acme:
       email: tech@talentpulse.nl
-      storage: "acme.json"
-      httpChallenge:
-        # used during the challenge
-        entryPoint: web
+      storage: "letsencrypt/acme.json"
+      tlsChallenge: {}
